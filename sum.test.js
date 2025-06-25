@@ -1,6 +1,6 @@
 const sum = require('./sum'); // Import the sum function from sum.js
 
-test('Suma dos numeros', () => {
+test('Suma tres numeros', () => {
     expect(sum(1, 2, 3)).toBe(6); // toBe es un matcher de Jest que verifica que el resultado sea igual a 6
 });
 
