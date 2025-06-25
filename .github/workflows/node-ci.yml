@@ -16,8 +16,6 @@ jobs:
 
       - name: clonar repositorio
         uses: actions/checkout@v3
-        with:
-          persist-credentials: false
   
       - name: usar node.js
         uses: actions/setup-node@v3
