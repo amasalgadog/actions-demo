@@ -11,13 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: ver entorno
-        run: echo "entorno actual ${{ secrets.NODE_ENV }}"
-
       - name: clonar repositorio
         uses: actions/checkout@v3
-        with:
-          persist-credentials: false
   
       - name: usar node.js
         uses: actions/setup-node@v3
