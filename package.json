@@ -1,0 +1,18 @@
+{
+  "name": "actions-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": { 
+    "_comentario": "scripts are used to run tasks like testing, building, etc.",
+    "_comentario2": "scripts can be run using npm run <script-name>, or npm <script-name>",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.0.2"
+  }
+}
